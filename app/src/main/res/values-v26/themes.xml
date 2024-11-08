@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ContactsApp" parent="Base.Theme.ContactsApp">
+        <!-- Modifier la couleur du texte de la Toolbar (titre) -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Modifier la couleur des icônes dans la Toolbar -->
+        <item name="android:iconTint">#FFFFFF</item>
+    </style>
+
+</resources>

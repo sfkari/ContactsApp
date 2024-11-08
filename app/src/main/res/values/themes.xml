@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ContactsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/bg</item>
+        <item name="colorPrimaryVariant">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+
+        <!-- Personnaliser les couleurs de texte pour qu'ils soient blancs -->
+        <item name="android:textColorPrimary">#FFD6EDFF</item> <!-- Texte principal -->
+        <item name="android:textColorSecondary">#FFD6EDFF</item> <!-- Texte secondaire -->
+
+        <item name="android:fontFamily">@font/montserratmedium</item>
+
+    </style>
+
+    <style name="Theme.ContactsApp" parent="Base.Theme.ContactsApp"/>
+
+    <style name="contactsSplash" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+</resources>
